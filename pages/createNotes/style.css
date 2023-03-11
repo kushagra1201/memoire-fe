@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'monospace';
+    color: black;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.create-note-container{
+    width: 500px;
+    height: 600px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 4px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.create-note-input{
+    border: none;
+    background: none;
+    height: 60%;
+    width: 80%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    text-align: center;
+}
+
+.create-note-input:focus{
+    outline: none;
+}
+
+.create-note-button{
+    padding: 10px;
+        border-radius: 10px;
+        border: 3px solid black;
+        margin-left: 10px;
+}
+
+.circle1,
+.circle2 {
+    z-index: -1;
+}
+
+.circle1 {
+    width: 1000px;
+    height: 1000px;
+    background: red;
+    border-radius: 50%;
+    filter: blur(10px);
+    position: absolute;
+    left: -120px;
+    bottom: -200px;
+    transform: rotate(18deg);
+}
+
+.circle2 {
+    width: 600px;
+    height: 600px;
+    background-color: grey;
+    border-radius: 50%;
+    filter: blur(10px);
+    position: absolute;
+    left: 700px;
+    bottom: -200px;
+    transform: rotate(18deg);
+}
