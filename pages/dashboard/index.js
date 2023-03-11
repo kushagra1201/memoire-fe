@@ -13,7 +13,7 @@ const createNotes = (array) => {
     card.classList.add("card");
     card.id = id;
 
-    const insidehtml = `<div class="card-header"><div class="card-heading">${heading}</div><div class="edit-note"><img src="../../assets/edit-note-icon.png" alt="Edit"></div></div><div class="card-content">${content}</div>`;
+    const insidehtml = `<div class="card-header"><div class="card-heading">${heading}</div><a href="../updateNotes/updateNotes.html?noteId=${id}"><div class="edit-note"><img src="../../assets/edit-note-icon.png" alt="Edit"></div></a></div><div class="card-content">${content}</div>`;
 
     card.innerHTML = insidehtml;
 
