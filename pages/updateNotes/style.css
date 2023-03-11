@@ -16,7 +16,7 @@ body {
     align-items: center;
 }
 
-.create-note-container{
+.create-note-container {
     width: 500px;
     height: 600px;
     padding: 10px;
@@ -33,10 +33,10 @@ body {
     font-weight: bold;
 }
 
-.create-note-input{
+.create-note-input {
     border: none;
     background: none;
-    height: 60%;
+    height: 50%;
     width: 80%;
     border-radius: 10px;
     font-weight: bold;
@@ -57,15 +57,15 @@ body {
     text-align: center;
 }
 
-.create-note-input:focus, .create-note-heading:focus{
+.create-note-input:focus, .create-note-heading:focus {
     outline: none;
 }
 
-.create-note-button{
+.create-note-button {
     padding: 10px;
-        border-radius: 10px;
-        border: 3px solid black;
-        margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid black;
+    margin-left: 10px;
 }
 
 .circle1,
@@ -81,18 +81,18 @@ body {
     filter: blur(10px);
     position: absolute;
     left: -120px;
-    bottom: -200px;
+    top: -200px;
     transform: rotate(18deg);
 }
 
 .circle2 {
     width: 600px;
     height: 600px;
-    background-color: grey;
+    background-color: blue;
     border-radius: 50%;
     filter: blur(10px);
     position: absolute;
-    left: 700px;
-    bottom: -200px;
+    left: 600px;
+    top: -200px;
     transform: rotate(18deg);
 }
